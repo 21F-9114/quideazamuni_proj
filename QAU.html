@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quaid-e-Azam University</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Announcement News Ticker -->
+    <div class="announcement">
+        <p>Important: Admissions for Fall 2024 are now open. Apply before the deadline!</p>
+    </div>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="logo">Quaid-e-Azam University</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#departments">Departments</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#why-qau">Why QAU</a></li>
+                <li><a href="#research">Research & Innovation</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Quaid-e-Azam University</h1>
+            <p>A prestigious institution of higher education in Pakistan.</p>
+            <a href="#about" class="cta-button">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Quaid-e-Azam University is a public research university in Islamabad, Pakistan. Established in 1967, it has grown to become one of the leading higher education institutions in the country.</p>
+    </section>
+
+    <!-- Message from Vice-Chancellor -->
+    <section id="vc-message" class="vc-message">
+        <h2>Message from the Vice-Chancellor</h2>
+        <p>Welcome to Quaid-e-Azam University, where we strive for excellence in education and research. Our university is committed to providing a nurturing environment that fosters innovation and creativity.</p>
+    </section>
+
+    <!-- Departments Section -->
+    <section id="departments" class="departments">
+        <h2>Departments</h2>
+        <div class="department-list">
+            <div class="department-item">Department of Computer Science</div>
+            <div class="department-item">Department of Physics</div>
+            <div class="department-item">Department of Chemistry</div>
+            <div class="department-item">Department of Economics</div>
+            <!-- Add more departments as needed -->
+        </div>
+    </section>
+
+    <!-- University News Section -->
+    <section id="news" class="news">
+        <h2>Latest News</h2>
+        <div class="news-item">
+            <h3>Convocation 2024</h3>
+            <p>Quaid-e-Azam University held its annual convocation on June 5th, 2024. Graduates from various departments received their degrees.</p>
+        </div>
+        <div class="news-item">
+            <h3>Research Collaboration</h3>
+            <p>The university has signed a MoU with AL-shifa  University to foster collaborative research in the field of biotechnology.</p>
+        </div>
+    </section>
+
+    <!-- University Events Section -->
+    <section id="events" class="events">
+        <h2>Upcoming Events</h2>
+        <div class="event-item">
+            <h3>International Science Conference</h3>
+            <p>Date: September 12, 2024</p>
+        </div>
+        <div class="event-item">
+            <h3>Alumni Meet 2024</h3>
+            <p>Date: October 25, 2024</p>
+        </div>
+    </section>
+
+    <!-- Why QAU Section -->
+    <section id="why-qau" class="why-qau">
+        <h2>Why Choose QAU?</h2>
+        <p>Quaid-e-Azam University offers a unique blend of academic excellence, diverse student body, and vibrant campus life. Our programs are designed to equip students with the skills needed to succeed in a globalized world.</p>
+    </section>
+
+    <!-- Research & Innovation Section -->
+    <section id="research" class="research">
+        <h2>Research & Innovation</h2>
+        <p>At QAU, research and innovation are at the core of our mission. We are dedicated to pushing the boundaries of knowledge and fostering a culture of inquiry and discovery.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@qau.edu.pk</p>
+        <p>Phone: +92 51 9064 0000</p>
+        <p>Address: Quaid-e-Azam University, Islamabad, Pakistan</p>
+    </section>
+<script>
+    // JavaScript for Burger Menu
+document.addEventListener('DOMContentLoaded', () => {
+    const burger = document.querySelector('.burger');
+    const navLinks = document.querySelector('.nav-links');
+
+    // Toggle the navigation menu on burger click
+    burger.addEventListener('click', () => {
+        navLinks.classList.toggle('nav-active');
+        burger.classList.toggle('toggle');
+    });
+});
+
+</script>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Quaid-e-Azam University. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>

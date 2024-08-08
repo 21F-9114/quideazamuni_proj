@@ -1,0 +1,162 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 15px 0;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: #34495e;
+    border-radius: 5px;
+}
+
+/* Announcement Ticker */
+.announcement {
+    background: #e74c3c;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.announcement p {
+    margin: 0;
+}
+
+/* Hero Section */
+.hero {
+    background: url('im.jpeg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #c0392b;
+}
+
+/* Section Styles */
+section {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section p {
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Department Styles */
+.department-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.department-item {
+    background: #ecf0f1;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    width: calc(33% - 40px);
+    text-align: center;
+    transition: background 0.3s;
+}
+
+.department-item:hover {
+    background: #bdc3c7;
+}
+
+/* News and Events Styles */
+.news-item, .event-item {
+    background: #ecf0f1;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.news-item h3, .event-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Why QAU and Research & Innovation */
+.why-qau, .research {
+    background: #f7f7f7;
+    padding: 50px 20px;
+}
+
+footer {
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
